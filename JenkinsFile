@@ -1,0 +1,8 @@
+node{
+    stage("clone"){
+        git "https://github.com/ronmois/2402-first-repo.git"
+    }
+    stage ("show"){
+        sh "ls -l"
+    }
+}
